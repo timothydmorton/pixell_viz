@@ -1,0 +1,65 @@
+sources:
+  I:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_I.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  I_src_free:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_I_src_free.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  Q:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_Q.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  U:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_U.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  hits:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_hits.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  noise:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_noise.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  risingscans_hits:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_risingscans_hits.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
+  settingscans_hits:
+    args:
+      url: https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actpol_2016_maps/ACTPol_148_D5_PA1_S1_4way_split1_settingscans_hits.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array
