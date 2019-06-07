@@ -10,6 +10,14 @@ conda install -c intake intake-astro
 
 ## Quickstart
 
+Write actpol YAML catalogs somewhere:
+```python
+from actpol import write_catalogs
+write_catalogs('data')
+```
+
+Read one of those catalogs into an xarray dataset:
+
 ```python
 import intake
 intake.output_notebook()
@@ -21,7 +29,7 @@ cat = intake.open_catalog('data/{}.yaml'.format(basename))
 dataset = get_dataset(cat)
 ```
 
-## Visualize
+Visualize:
 
 ```python
 import holoviews as hv
