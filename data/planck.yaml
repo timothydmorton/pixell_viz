@@ -1,0 +1,10 @@
+
+sources:
+  hybrid_545:
+    args:
+      url: https://portal.nersc.gov/project/act/msyriac/planck_hybrid_545_2way_0_map.fits
+    cache:
+    - argkey: url
+      type: file
+    direct_access: force
+    driver: fits_array

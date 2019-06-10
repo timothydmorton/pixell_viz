@@ -5,7 +5,12 @@ Interactive visualization of CMB maps
 
 ```
 conda install -c pyviz pyviz
-conda install -c intake intake-astro
+pip install git+https://github.com/intake/intake-astro
+```
+If you want to use with JupyterLab:
+```
+conda install -c conda-forge jupyterlab  # if you haven't already
+jupyter labextension install @pyviz/jupyterlab_pyviz
 ```
 
 ## Quickstart
